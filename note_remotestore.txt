@@ -15,5 +15,17 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 二：添加远程库
 现在的情景是，你已经在本地创建了一个Git仓库后，又想在GitHub创建一个Git仓库，并且让这两个仓库进行远程同步，这样，
 GitHub上的仓库既可以作为备份，又可以让其他人通过该仓库来协作，真是一举多得。
-1、创建一个新的仓库：
+1、创建一个新的空仓库
+2、在本地的learngit仓库下运行命令：
+$ git remote add origin git@github.com:michaelliao/learngit.git
+3、把本地库的所有内容推送到远程库上：
+$ git push -u origin master
+4、从现在起，只要本地作了提交，就可以通过命令：
+$ git push origin master
+把本地master分支的最新修改推送至GitHub，现在，你就拥有了真正的分布式版本库！
 
+
+三：从远程库克隆：
+1、创建一个新的仓库：
+2、用命令git clone克隆一个本地库：
+$ git clone git@github.com:michaelliao/gitskills.git
