@@ -23,6 +23,9 @@
 * [Markdown入门参考](http://xianbai.me/learn-md/)
     - [code on github](https://github.com/zhipc/Learning-Markdown)
 
-* [Markdown快速入门](http://wowubuntu.com/markdown/basic.html)
-    - [code on gitcafe](https://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/README.md)
+* [Markdown快速入门][Markdown快速入门]
+    - [code on gitcafe][code on gitcafe]
+
+[Markdown快速入门]: http://wowubuntu.com/markdown/basic.html 
+[code on gitcafe]: https://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/README.md
 
