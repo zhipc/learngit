@@ -15,3 +15,4 @@
 ### 常见问题：
 * [git clone](question.md)
 * [file rename](question.md)
+* [could not resolve hostname](question.md)
