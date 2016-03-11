@@ -14,4 +14,6 @@
 
 * [编程语言之python](python/README.md)
 
+* [编程语言之php](php/README.md)
+
 * [编程语言之perl](perl/README.md)
