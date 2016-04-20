@@ -2,6 +2,7 @@
 -----
 
 ### 文档目录：
+* [一个通用的Makefile](./Makefile)
 
 ### 参考资料：
 * [A Simple Makefile Tutorial](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
