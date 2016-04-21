@@ -27,6 +27,8 @@ _OBJ = main.o fun.o
 OBJ = $(patsubst %, $(OBJDIR)/%, $(_OBJ))
 ###OBJ = $(OBJDIR)/%.o
 
+all: hellomake
+
 # hellomake这个主目标一定要放到次目标$(OBJDIR)/%.o之前，否则make不通过
 hellomake: $(OBJ)
 # $^: 所有的依赖目标集合
