@@ -27,9 +27,9 @@ _OBJ = main.o fun.o
 OBJ = $(patsubst %, $(OBJDIR)/%, $(_OBJ))
 ###OBJ = $(OBJDIR)/%.o
 
+# make默认第一个目标为最终目标，all这个主目标一定要放到所有次目标之前，否则make不通过
 all: hellomake
 
-# hellomake这个主目标一定要放到次目标$(OBJDIR)/%.o之前，否则make不通过
 hellomake: $(OBJ)
 # $^: 所有的依赖目标集合
 	$(CC) $^ $(CFLAGS) -Wall -o $@
