@@ -7,7 +7,7 @@ CFLAGS = -I$(INCDIR)
 
 # 指定.o文件存储路径
 OBJDIR = obj 
-# 指定库文件路径
+# 指定库文件路径(将../lib作为第一个寻找库文件的目录)
 LIBDIR = ../lib
 
 # 指定链接库
