@@ -10,6 +10,8 @@
 
 * [编程语言之perl](perl/README.md)
 
+* [编程语言之scala](scala/README.md)
+
 编程工具：
 -----
 * [工具学习之git](git/README.md)
